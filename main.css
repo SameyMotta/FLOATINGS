@@ -1,0 +1,69 @@
+/* Pon tu código css aqui */
+.uno{
+	display: inline-block;
+	width: 200px;
+	height: 74px;
+	border: 1px solid black;
+	float: left;
+}
+.dos{
+	display:block;
+	width: 60px;
+	height: 25px;
+	border: none;
+	background-color:yellow; 
+}
+.tres{
+	display:block;
+	width: 60px;
+	height: 25px;
+	border: none;
+	background-color:blue;
+}
+.cuatro{
+	display:block;
+	width: 60px;
+	height: 25px;
+	border: none;
+	background-color:red;
+}
+.clearfix:before,.clearfix:after{
+
+	content: "";
+	display: table;
+}
+.clearfix:after{
+	clear:both;
+}
+
+.cinco{    display: inline-block;
+	border: 1px solid black;
+	position: relative;
+	float: right;
+}
+.seis{
+display:inline-block;
+	width: 60px;
+	height: 25px;
+	border: none;
+	background-color:yellow;
+	float: right;
+	margin-right: 50px; 
+}
+.siete{
+display:inline-block;
+	width: 60px;
+	height: 25px;
+	border: none;
+	background-color:blue;
+	float: right;
+}
+.ocho{
+display:inline-block;
+	width: 60px;
+	height: 25px;
+	border: none;
+	background-color:red;
+	float: right;
+
+}
